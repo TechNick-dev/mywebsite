@@ -150,7 +150,8 @@ footer {
     }
 
     .project-card {
-        width: 80%;
+        width: 90%;
+        margin-bottom: 1rem;
     }
 
     .skills-container {
@@ -159,11 +160,12 @@ footer {
     }
 
     .skill {
-        width: 80%;
+        width: 90%;
         margin-bottom: 1rem;
     }
 }
 
+/* Extra Small Devices */
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5rem;
@@ -174,7 +176,7 @@ footer {
     }
 
     .project-card {
-        width: 90%;
+        width: 100%;
     }
 
     .skills-container {
