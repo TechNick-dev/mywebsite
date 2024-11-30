@@ -183,3 +183,17 @@ footer {
         padding: 1rem;
     }
 }
+/* Wave Animation */
+.wave {
+    display: inline-block;
+    animation: wave-animation 1s infinite;
+    transform-origin: 70% 70%;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+  }
