@@ -13,7 +13,7 @@ header {
     text-align: center;
     padding: 2rem;
     background: #0d1117;
-    color: #58a6ff;
+    color: #0ff;
     position: relative;
 }
 
@@ -27,7 +27,7 @@ header {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 3px solid #58a6ff;
+    border: 3px solid #0ff;
 }
 
 header h1 {
@@ -53,6 +53,7 @@ nav ul {
     padding: 0;
     display: inline-flex;
     gap: 2rem;
+    
 }
 
 nav ul li a {
@@ -62,7 +63,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1e90ff;
+    color: #0f8;
 }
 
 /* Sections */
@@ -71,7 +72,7 @@ main {
 }
 
 h2 {
-    color: #58a6ff;
+    color: #0f8;
     margin-bottom: 1rem;
 }
 
@@ -85,15 +86,17 @@ h2 {
 
 .project-card {
     background: #0d1117;
-    border: 1px solid #30363d;
+    border: 1px solid #00e1ff;
     border-radius: 5px;
     padding: 1rem;
     width: 300px;
     text-align: center;
-}
+    box-shadow: 0 0 10px #0ff;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
 
 .project-card h3 {
-    color: #58a6ff;
+    color: #0f8;
 }
 
 .project-card p {
@@ -103,7 +106,7 @@ h2 {
 .project-card .btn {
     display: inline-block;
     margin-top: 1rem;
-    background: #58a6ff;
+    background: #0f8;
     color: #0d1117;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -112,7 +115,8 @@ h2 {
 }
 
 .project-card .btn:hover {
-    background: #1e90ff;
+  background: #0f8;
+    box-shadow: 0 0 20px #0f8
 }
 
 /* Footer */
