@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00ffea;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #00ffea;
+      font-weight: bold;
+    }
+
+    .container {
+      margin: 50px auto;
+      max-width: 800px;
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px rgba(0, 255, 234, 0.3);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffea;
+    }
+
+    h2 {
+      color: #00ffea;
+    }
+
+    .project {
+      background-color: #2a2a2a;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 255, 234, 0.2);
+    }
+
+    .project h3 {
+      margin: 0;
+      color: #00ffea;
+    }
+
+    .project p {
+      color: #ccc;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 10px;
+      background-color: #1f1f1f;
+    }
+
+    footer p {
+      margin: 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+      <h2>About Me</h2>
+      <p>Hello! I'm a beginner web developer passionate about building clean and modern websites. I love learning new technologies and improving my skills every day.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio to showcase my skills and projects.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>A weather app built with React that fetches real-time data from OpenWeather API.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:example@gmail.com" style="color: #00ffea;">nestorcatubayjr@gmail.com</a></p>
+    </section>
+    <button id="backToHomeBtn">Back to Home</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+  </footer>
+  <script src="script2.js"></script>
+
+</body>
+</html>
